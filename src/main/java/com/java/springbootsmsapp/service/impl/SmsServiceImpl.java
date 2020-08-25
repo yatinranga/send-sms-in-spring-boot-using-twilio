@@ -12,11 +12,11 @@ import com.twilio.type.PhoneNumber;
 @Service
 public class SmsServiceImpl implements SmsService {
 
-	private final String ACCOUNT_SID = "ACa9f21740b90ff25d28e3c7a24973d68c";
+	private final String ACCOUNT_SID = "enter your account sid from twilio console";
 
-	private final String AUTH_TOKEN = "c1eb522adaf0a2e6d0e98ab1dfe356e4";
+	private final String AUTH_TOKEN = "enter your auth token from twilio console";
 
-	private final String FROM_NUMBER = "+18644044984";
+	private final String FROM_NUMBER = "enter your number with country code assigned to you from twilio console";
 
 	@Override
 	public void send(SmsRequest request) {
